@@ -1,0 +1,25 @@
+import { createProxyMiddleware } from "http-proxy-middleware";
+
+module.exports = function (app: any) {
+    app.use(
+        "/api",
+        createProxyMiddleware({
+            target: "http://localhost:3001",
+            changeOrigin: true,
+        })
+    );
+    app.use(
+        "/api",
+        createProxyMiddleware({
+            target: "http://localhost:3002",
+            changeOrigin: true,
+        })
+    );
+    app.use(
+        "/api",
+        createProxyMiddleware({
+            target: "http://localhost:3003",
+            changeOrigin: true,
+        })
+    );
+};

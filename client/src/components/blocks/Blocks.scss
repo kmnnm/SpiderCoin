@@ -1,0 +1,10 @@
+
+.blocks-container {
+  padding: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  .blockchain{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

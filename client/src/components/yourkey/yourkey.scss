@@ -1,0 +1,41 @@
+.yourkey_title {
+    font-size: 30px;
+    font-weight: bold;
+}
+.yourkey_subtitle {
+    margin: 10px 0 30px;
+}
+.yourkey_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    margin: 1rem;
+}
+
+.code-snippet2 {
+    width: 100%;
+    background: #afb3b8;
+    padding: 0.1rem;
+}
+
+.code-section2 {
+    position: relative;
+    width: 100%;
+}
+
+.code-section2 pre {
+    font-size: 1rem;
+}
+
+.yourkey_copied {
+    font-size: 10px;
+}
+
+.code-section2 span {
+    position: absolute;
+    right: 0;
+    top: 5%;
+    bottom: 0;
+    font-size: 120%;
+}

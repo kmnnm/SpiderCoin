@@ -1,0 +1,85 @@
+.peers-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    height: 85vh;
+    align-items: center;
+}
+
+.peer_container {
+    margin: 15px auto;
+    width: 1000px;
+}
+.peer_name {
+    display: inline-block;
+    font-size: 5vh;
+    font-weight: bold;
+    margin: 10px 5px 10px;
+}
+.peer_port {
+    display: inline-block;
+    margin: 5px auto;
+}
+.peer_getPeers > button {
+    width: 120px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #443741;
+    border: none;
+}
+.peer_getPeers > button:hover {
+    background-color: #000000;
+}
+
+.peer_getPeers > button::after {
+    background-color: #000000;
+}
+.peer_textField input {
+    width: 320px;
+    margin-right: 20px;
+}
+.peer_textField > button {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #443741;
+    border: none;
+}
+.peer_textField > button:hover {
+    background-color: #000000;
+}
+.peer_addWallet {
+    width: 100%;
+}
+.peer_addWallet > button {
+    width: 120px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #443741;
+    border: none;
+}
+.peer_addWallet > button:hover {
+    background-color: #000000;
+}
+
+.peer_addWallet > button::after {
+    background-color: #000000;
+}
+
+// .peer_getPeers_button {
+//     margin-left: 40px;
+//     margin-bottom: 10px;
+//     padding-left: 20px;
+//     padding-right: 20px;
+//     background-color: #443741;
+//     border: none;
+// }
+// .peer_getPeers_button > button:hover {
+//     background-color: #000000;
+// }

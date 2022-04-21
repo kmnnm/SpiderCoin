@@ -1,0 +1,21 @@
+.mempool-container {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  h3 {
+    margin-bottom: 30px;
+  }
+  .mempool-peer-container {
+    display: flex;
+    flex-direction: row;
+    .mempool-peer-wrap{
+      position: relative;
+    }
+    .mempool-peer {
+      padding: 15px;
+      overflow-wrap: break-word;
+      width: 100%;
+      
+    }
+  }
+}

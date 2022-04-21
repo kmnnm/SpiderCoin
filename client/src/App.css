@@ -1,0 +1,24 @@
+html,body {
+  margin:0;
+  height:100%; 
+  /* overflow:hidden; */
+}
+body {
+  /* background: hsl(210, 30%, 0%) radial-gradient( hsl(210, 30%, 20%), hsl(210, 30%, 0%)); */
+  /* color: rgba(255, 255, 255, 0.55); */
+}
+
+
+a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.55);
+  padding: 8px 8px;
+}
+a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+.main-contents-container{
+  margin: auto;
+  margin-top: 20px;
+  max-width: 80vw;
+}
